@@ -1,0 +1,48 @@
+td{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(212, 17, 131);
+    font-size: 100px;
+    text-align: center;
+    background-color: black;
+    color: rgb(17, 209, 193);
+}
+.jumbotron h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+p{
+    color: rgb(212, 17, 131);
+}
+button{
+    background-color: rgb(3, 4, 59) !important;
+    height: 60px;
+    width: 150px;
+    font-size: 25px !important;
+    
+}
+.card{
+    
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border:2px solid rgb(212, 17, 131);
+    font-size: 100px;
+    text-align: center;
+    color: rgb(17, 209, 193);
+}
+.column {
+   
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
